@@ -17,7 +17,7 @@ const config = new Store({
 // SPWAN SWITCH SERVICE
 const devmode = process.argv[2] == "--dev" ? true : false;
 
-function SPWAN_SWITCH_SERVICE_WIN() {
+function SPAWN_SWITCH_SERVICE_WIN() {
   // windows specific spawn
   return execFile(
     devmode
